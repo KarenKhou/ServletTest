@@ -13,7 +13,7 @@ public class BonjourServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>Bonjour, Nom Prénom</h1>");
+        out.println("<h1>Bonjour, Karen Khoury</h1>");
         out.println("</body></html>");
     }
 }
